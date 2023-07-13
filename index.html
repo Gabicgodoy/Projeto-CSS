@@ -2,54 +2,170 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <script src="https://kit.fontawesome.com/192af767df.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/styles.css" />
-</head>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Gabriela Costa Godoy" />
+        <meta property="og:description"
+            content=" Página de portfólio criada para demonstrar conhecimentos consistentes no uso da linguagem CSS, seguindo boas práticas e o máximo de recursos da linguagem para torná-la visualmente agradável, responsiva e intuitiva para os usuários." />
+        <meta property="og:image" content="https://avatars.githubusercontent.com/u/135194253?v=4" />
+        <meta property="og:url" content="https://github.com/Gabicgodoy/Projeto-CSS" />
+        <meta property="og:type" content="website" />
+        <title>Portfólio- Gabriela Godoy</title>
+
+        <script src="https://kit.fontawesome.com/192af767df.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="./css/styles.css" />
+
+    </head>
 
 <body>
     <div class="container">
-        <nav id="side-bar">
+        <nav id="aside-bar">
             <section id="section-esquerda">
-                <img src="https://avatars.githubusercontent.com/u/135194253?v=4" alt="minha-foto">
-                <h2>Gabriela Costa Godoy</h2>
+                <img src="https://avatars.githubusercontent.com/u/135194253?v=4" alt="minha-foto" id="minha-foto">
+                <h1>Gabriela Costa Godoy</h1>
                 <ul id="contatos">
                     <li><a href="https://github.com/Gabicgodoy" target="blank"><i class="fa fa-github"></i> </a></li>
-                    <li><a href="https://github.com/Gabicgodoy" target="blank"><i class="fa fa-instagram"></i> </a></li>
-                    <li><a href="https://github.com/Gabicgodoy" target="blank"><i class="fa fa-facebook"></i> </a></li>
+                    <li><a href="https://www.instagram.com/_gaby_godoy/" target="blank"><i class="fa fa-instagram"></i>
+                        </a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100004437584667" target="blank"><i
+                                class="fa fa-facebook"></i> </a></li>
                 </ul>
             </section>
         </nav>
+
         <main>
-            <section id="skills">
+            <section id="infos">
                 <h2>Olá, bem-vindo ao meu portfólio </h2>
                 <p>Me chamo Gabriela Costa Godoy, tenho 20 anos e sou estudante de Java Fullstack</p>
+                <hr>
+                <h4>Minhas informações:</h4>
                 <ul>
-                    <li><strong>Localização:</strong> São Caetano do Sul, SP</li>
-                    <li><strong>E-mail:</strong> gabycostagodoy@gmail.com</li>
+                    <li><span class="material-symbols-outlined">call</span> (11) 94784-3561</li>
+                    <li><span class="material-symbols-outlined">location_on</span> São Caetano do Sul, SP</li>
+                    <li><span class="material-symbols-outlined">email</span> gabycostagodoy@gmail.com</li>
                 </ul>
+                <hr>
             </section>
 
-            <section id="projects">
-                <h2>Projetos</h2>
-                <div class="project">
-                    <img src="project1.jpg" alt="Projeto 1">
-                    <h3>Projeto 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="project">
-                    <img src="project2.jpg" alt="Projeto 2">
-                    <h3>Projeto 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <section id="about-me">
+                <h3>Sobre mim:</h3>
+                <p>
+                    Em 2020, terminei o ensino médio e um curso técnico de tecnologia, nisso descobri que sou uma menina
+                    apaixonada por tecnologia e por novos conhecimentos nessa área. Sabendo disso decidi me dedicar ao
+                    meu desenvolvimento pessoal e acadêmico, iniciei meus estudos na
+                    Universidade Anhembi Morumbi, no curso de Análise e desenvolvimento de sistemas. Após ter concluído
+                    a faculdade em julho de 2023, ganhei um curso de Java Full Stack pela Soulcode em
+                    parceria com a Porto e estou amando me dedicar a esse curso super intensivo.
+                </p>
+            </section>
+
+            <section class="network" id="meu-network">
+                <h2>Meus Networking</h2>
+                <div class="network-colegas">
+                    <article class="my-network-card">
+                        <div class="meu-network-card">
+                            <img src="https://media.licdn.com/dms/image/D4E03AQH7vngxRy7fyQ/profile-displayphoto-shrink_200_200/0/1686766278764?e=1694649600&v=beta&t=UC2Wezj1mWAgIZfln-JXwTDAmAMMaF5CLKoxO8v_V-k"
+                                alt="almir" />
+                            <h3>José Almir</h3>
+                        </div>
+                        <div class="network-colegas">
+                            <p>
+                                Professor de CSS, na empresa Soulcode e graduado no Instituto Federal de Educação,
+                                Ciência e Tecnologia do Ceará
+                            </p>
+                            <a href="https://www.linkedin.com/in/jose-almir/" target="_blank">Veja mais</a>
+                        </div>
+                    </article>
+
+                    <article class="my-network-card">
+                        <div class="meu-network-card">
+                            <img src="https://media.licdn.com/dms/image/C4D03AQH2w4YxCRdUrQ/profile-displayphoto-shrink_200_200/0/1662340682802?e=1694649600&v=beta&t=SD4u1b7PswTw8Z5tvryIdyMoBb4qkHztE2QAfzvNYOk"
+                                alt="gustavo" />
+                            <h3>Gustavo Quilante Azevedo</h3>
+                        </div>
+                        <div class="network-colegas">
+                            <p>
+                                Estudante de Java Full Stack e Cloud na SoulCode e formado pela Universidade Estadual
+                                Paulista "Júlio de Mesquita Filho".
+                            </p>
+                            <a href="https://www.linkedin.com/in/gustavo-quilante-azevedo-328552239/"
+                                target="_blank">Veja mais</a>
+                        </div>
+                    </article>
+
+                    <article class="my-network-card">
+                        <div class="meu-network-card">
+                            <img src="https://media.licdn.com/dms/image/C4D03AQHs3EluT2Xvqg/profile-displayphoto-shrink_200_200/0/1616500400752?e=1694649600&v=beta&t=v7Vjd8IRB0GQesAhVNFL6DmKESYHt37wl5otUzgvrXg"
+                                alt="pedro" />
+                            <h3>Pedro Lima</h3>
+                        </div>
+                        <div class="network-colegas">
+                            <p>
+                                Trabalha como Analista de Governança de TI Sr na Porto Seguro e se formou na faculdade
+                                hebraico brasileira Renascença
+                            </p>
+                            <a href="https://www.linkedin.com/in/pedro-lima-b8183387/" target="_blank">Veja mais</a>
+                        </div>
+                    </article>
+
+                    <article class="my-network-card">
+                        <div class="meu-network-card">
+                            <img src="https://media.licdn.com/dms/image/D4E03AQEV-A0hqyUzjw/profile-displayphoto-shrink_200_200/0/1686152637647?e=1694649600&v=beta&t=30nrVy9YJhD43UMwRMRn2rZgNY6dHVs7UCUWzNyDBK8"
+                                alt="carolina" />
+                            <h3>Carolina Prado</h3>
+                        </div>
+                        <div class="network-colegas">
+                            <p>
+                                Estudante de Java Full Stack e Cloud na SoulCode Academy e formada na Universidade
+                                Anhembi Morumbi.
+                            </p>
+                            <a href="https://www.linkedin.com/in/carolinapradtech/" target="_blank">Veja mais</a>
+                        </div>
+                    </article>
+
+                    <article class="my-network-card">
+                        <div class="meu-network-card">
+                            <img src="https://media.licdn.com/dms/image/D4D03AQFbxQd1rQXnrA/profile-displayphoto-shrink_200_200/0/1680654611655?e=1694649600&v=beta&t=gucYvacmAvWvAEJPWBM319b2swnnAghOtTqmLfPxsRA"
+                                alt="nicolas" />
+                            <h3>Nícolas Barreto</h3>
+                        </div>
+                        <div class="network-colegas">
+                            <p>
+                                Estudante de Ciências Econômicas na Universidade de São Caetano do Sul
+                            </p>
+                            <a href="https://www.linkedin.com/in/n%C3%ADcolas-barreto-949a09213/" target="_blank">Veja
+                                mais</a>
+                        </div>
+                    </article>
+
+                    <article class="my-network-card">
+                        <div class="meu-network-card">
+                            <img src="https://media.licdn.com/dms/image/D4D03AQEotHlSO_Wavw/profile-displayphoto-shrink_200_200/0/1675273475648?e=1694649600&v=beta&t=mTIktm6ZZfDisZ96FfsxNjpSF7ID2l2S1Db5kGivlmo"
+                                alt="diego" />
+                            <h3>Diego Santos </h3>
+                        </div>
+                        <div class="network-colegas">
+                            <p>
+                                Estudante de Java Full Stack e Cloud na SoulCode e fomado pela Universidade Cruzeiro do
+                                Sul
+                            </p>
+                            <a href="https://www.linkedin.com/in/diego-santos-46303a214/" target="_blank">Veja mais</a>
+                        </div>
+                    </article>
                 </div>
             </section>
         </main>
     </div>
     <footer>
-        <p>&copy; 2023 Meu Portfólio</p>
+        <p>&copy; 2023 - Todos os direitos reservados (Gabriela Godoy)</p>
     </footer>
+
+    <a href="https://wa.me/5511947843561?text=Ol%C3%A1%2C+tudo+bem%3F" target="_blank"><button class="contact-me"><i class="fa fa-whatsapp"></i></button></a>
+
 </body>
 
 </html>
